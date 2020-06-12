@@ -1,0 +1,822 @@
+{
+  "intents": [
+    {
+      "intent": "location",
+      "examples": [
+        {
+          "text": "Give me a list of locations"
+        },
+        {
+          "text": "Where are your gym?"
+        },
+        {
+          "text": "where is your gym?"
+        },
+        {
+          "text": "What's the address of your Gym?"
+        },
+        {
+          "text": "do you have a flower shop in Montreal"
+        },
+        {
+          "text": "list of your locations"
+        },
+        {
+          "text": "Where are you physically located?"
+        },
+        {
+          "text": "What are your locations?"
+        },
+        {
+          "text": "List of location"
+        }
+      ]
+    },
+    {
+      "intent": "Membership",
+      "examples": [
+        {
+          "text": "What are the plans for membership?"
+        },
+        {
+          "text": "what plans are do u suggest us"
+        },
+        {
+          "text": "what are the membership accounts you provide?"
+        },
+        {
+          "text": "Is there any membership for lifelong?"
+        },
+        {
+          "text": "How long does the membership exists?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "hours",
+      "examples": [
+        {
+          "text": "When do you open"
+        },
+        {
+          "text": "what are the timings of your gym"
+        },
+        {
+          "text": "when does gym opens"
+        },
+        {
+          "text": "are they are any shifts ?"
+        },
+        {
+          "text": "Are you open on Saturdays?"
+        },
+        {
+          "text": "What time are you open until?"
+        },
+        {
+          "text": "What are your hours of operation?"
+        },
+        {
+          "text": "what are the hours of operation for your Montreal store"
+        },
+        {
+          "text": "What are your hours?"
+        },
+        {
+          "text": "Are you open on Sundays?"
+        },
+        {
+          "text": "what are you hours of operation in Toronto"
+        },
+        {
+          "text": "Are you open on Christmas' Day?"
+        },
+        {
+          "text": "When do you close"
+        },
+        {
+          "text": "What days are you closed on?"
+        },
+        {
+          "text": "When are you open"
+        }
+      ]
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "helloo"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "Membershipstatus",
+      "examples": [
+        {
+          "text": "How many days left for my membership expiry?"
+        },
+        {
+          "text": "How do I renewal my membership account?"
+        },
+        {
+          "text": "what is the status of my membership account?"
+        },
+        {
+          "text": "what is the validity of my membership account?"
+        },
+        {
+          "text": "How Can I cancel my policy?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Trainer",
+      "examples": [
+        {
+          "text": "Whom I trained by?"
+        },
+        {
+          "text": "What are the experience of the trainer?"
+        },
+        {
+          "text": "Does trainer take individual caring?"
+        },
+        {
+          "text": "does abs can be get within 10days of workout"
+        },
+        {
+          "text": "how much time should i workouts"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "gyminfo",
+      "examples": [
+        {
+          "text": "Will my membership automatically renew at the end of my term?"
+        },
+        {
+          "text": "I need to pause my membership because I got injured or will be traveling for an extended amount of time. How do I freeze my account temporarily?"
+        },
+        {
+          "text": "What classes does Anytime Fitness offer? Are they included with membership? Where can I find the class schedule?"
+        },
+        {
+          "text": "What different personal training options does Anytime Fitness have?"
+        },
+        {
+          "text": "How much does a personal training session and group training session cost at Anytime Fitness?"
+        },
+        {
+          "text": "What is your policy on children? Can I bring my kid when I workout?"
+        },
+        {
+          "text": "Do Anytime Fitness clubs have showers and lockers?"
+        },
+        {
+          "text": "Do Anytime Fitness clubs have tanning, saunas, or steam rooms?"
+        },
+        {
+          "text": "Does have Fitness have basketball courts or swimming pools?"
+        },
+        {
+          "text": "Does Anytime Fitness allow guests? What is your visitor policy?"
+        },
+        {
+          "text": "What happens if I miss a payment? Is there a late fee?"
+        },
+        {
+          "text": "\"HOW OFTEN SHOULD I WORK OUT TO SEE RESULTS?\""
+        },
+        {
+          "text": "How old do you have to be to workout at Anytime Fitness? Is there a minimum age to join?"
+        },
+        {
+          "text": "I was charged twice for my monthly bill. Who can I contact to fix the issue?"
+        },
+        {
+          "text": "\"WHAT'S THE BIGGEST MISTAKE PEOPLE MAKE AT THE GYM?\""
+        },
+        {
+          "text": "\"WHAT DO YOU DO IF YOU'RE NOT A MORNING PERSON BUT HAVE A HARD TIME GETTING MOTIVATED TO GO TO THE GYM AFTER A HARD DAY AT WORK?\""
+        },
+        {
+          "text": "\"WHAT AB EXERCISES SHOULD I DO TO GET RID OF MY TUMMY?\""
+        },
+        {
+          "text": "\"WHEN I'M ON A DIET BUT NOT DOING SPORT, I LOSE WEIGHT VERY FAST, BUT I GAIN IT BACK - AND THEN SOME - VERY QUICKLY. WHY IS THAT?\""
+        },
+        {
+          "text": "\"DOES SPINNING SLIM DOWN YOUR LEGS?\""
+        },
+        {
+          "text": "\"SINCE I STARTED WEIGHT TRAINING, MY THIGHS HAVE GOTTEN BIGGER AND I CAN'T FIT INTO MY TROUSERS ANY MORE! WHAT SHOULD I DO?\""
+        },
+        {
+          "text": "\"WHAT IS THE PROPER WAY TO BREATHE DURING SPORT?\""
+        },
+        {
+          "text": "How long should people rest in between workouts?"
+        },
+        {
+          "text": "Should a personal trainer know all of the medications someone is on?"
+        },
+        {
+          "text": "What should I eat after a workout?"
+        },
+        {
+          "text": "Why can't I just do cardio?"
+        },
+        {
+          "text": "“How does exercise help mental health?”"
+        },
+        {
+          "text": "“Do you need protein for exercise?”"
+        },
+        {
+          "text": "“Which exercises help with weight loss?”"
+        },
+        {
+          "text": "Why is it, after I eat a fruit I get hungry again within an hour?"
+        },
+        {
+          "text": "Should I Eat Before A Workout?"
+        },
+        {
+          "text": "I am looking for membership prices. How much does it cost to join?"
+        },
+        {
+          "text": "Do you offer student, senior, or military discounts?"
+        },
+        {
+          "text": "Are guest passes included with membership?"
+        },
+        {
+          "text": "Can I purchase a day pass if I am in the area on vacation? What is the cost?"
+        },
+        {
+          "text": "What payment methods does Anytime Fitness accept? Will I get charged on a month by month basis?"
+        },
+        {
+          "text": "I’d like to update my credit card. How do I change my payment details?"
+        },
+        {
+          "text": "\"CAN YOU TURN FAT INTO MUSCLE?\""
+        },
+        {
+          "text": "What different contract lengths does Anytime Fitness offer? Can I pay on a month-by-month basis?"
+        },
+        {
+          "text": "I have family, friends, or a significant other that would like to join the gym with me. Do you offer family or joint membership options?"
+        },
+        {
+          "text": "What is your cancellation policy? Is there a fee for breaking my contract?"
+        },
+        {
+          "text": "Can I transfer my membership to another club location if I am moving soon?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Thanks",
+      "examples": [
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Get lost"
+        }
+      ],
+      "description": "End the conversation."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "location",
+          "synonyms": [
+            "locations",
+            "place",
+            "spot",
+            "places",
+            "areas",
+            "located",
+            "area",
+            "situated",
+            "near",
+            "nearby"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "hours",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "hours",
+          "synonyms": [
+            "hour",
+            "hrs",
+            "time",
+            "weeks",
+            "weekends",
+            "evenings",
+            "nights",
+            "mornings",
+            "timings"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tainer",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "trainer",
+          "synonyms": [
+            "trainers",
+            "instructor",
+            "coaching",
+            "workout",
+            "coaches",
+            "mentoring",
+            "cardio",
+            "exercise",
+            "coach",
+            "mentors",
+            "aerobics"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "memeshipstatus",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "memeshipstatus",
+          "synonyms": [
+            "membership ,plans,subscriptions"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.cloud.ibm.com/api/v1/web/17k91a0584%40tkrcet.com_dev/default/disco%20action.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Try Again Later .Please contact us +44 234567"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1590665210948",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1590665374356",
+      "previous_sibling": "response_6_1590665371706"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<?$webhook_result_1.results[0].text?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1590665210948",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_6_1590665371706"
+    },
+    {
+      "type": "standard",
+      "title": "membership",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are providing Premium Account and also Gold membership Accounts.If you have any Enquiry Please Contact Us +44 236548   "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Membership",
+      "dialog_node": "node_6_1590476765907",
+      "previous_sibling": "node_3_1590477204833"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi there ! I'm here to help .What can I answer for you today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Greetings",
+      "dialog_node": "node_10_1590475476898",
+      "previous_sibling": "node_8_1590476232384"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_4_1590475842033",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Thankyou",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Glad to be of assistance !"
+              },
+              {
+                "text": "You're Welcome!"
+              },
+              {
+                "text": "Anytime !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Thanks",
+      "dialog_node": "node_2_1590475708015",
+      "previous_sibling": "node_10_1590475476898"
+    },
+    {
+      "type": "standard",
+      "title": "Location",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Address: 2-9-10, Beside Barakh Complex, NGO Colony Rd, opp. Bangalore Bakery, NGOs Colony, Ashoka Colony, Hanamkonda, Telangana 506001"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#location",
+      "dialog_node": "node_8_1590476232384",
+      "previous_sibling": "node_6_1590476765907"
+    },
+    {
+      "type": "standard",
+      "title": "Gyminfo",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input.text?>"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#gyminfo",
+      "dialog_node": "node_9_1590665210948",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "tainer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are providing a Top Class Trainers with more than 10yr's  Experience.If you have any Enquiry Please Contact Us +44 236548   "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Trainer",
+      "dialog_node": "node_3_1590477204833",
+      "previous_sibling": "node_9_1590477056926"
+    },
+    {
+      "type": "standard",
+      "title": "Hours",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Weekdays Timings from Morning: 6-12 P.M ,Evening : 6-8 P.M\nThe Weekend Timings from Morning: 6-12 P.M \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#hours",
+      "dialog_node": "node_4_1590475842033",
+      "previous_sibling": "node_2_1590475708015"
+    },
+    {
+      "type": "standard",
+      "title": "status",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please Kindly Enter your Membership card Details?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Membershipstatus",
+      "dialog_node": "node_9_1590477056926",
+      "previous_sibling": "node_9_1590665210948"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}
